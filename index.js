@@ -14,5 +14,5 @@ var password=document.getElementById("password");
 function copyPassword() {
   var copyText = document.getElementById("password");
   copyText.select();
-  document.execCommand("copy");  
+  document.execCommand("copy")
 }
